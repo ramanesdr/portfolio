@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nestjs/bull": "^0.6.2",
+    "bull": "^4.10.2",
     "firebase": "^9.10.0",
     "moment": "^2.29.4",
     "next": "12.3.1",
@@ -17,6 +19,7 @@
     "react-icons": "^4.4.0"
   },
   "devDependencies": {
+    "@types/bull": "^4.10.0",
     "autoprefixer": "^10.4.12",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
