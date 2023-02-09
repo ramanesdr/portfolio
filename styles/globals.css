@@ -38,7 +38,7 @@ a {
 @media screen and (max-width: 600px){
   main{
     background-color: aqua;
-    margin-left:  45px;
+    margin-left:  70px;
     width: auto;
   }
 }
