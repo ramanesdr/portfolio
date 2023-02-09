@@ -38,6 +38,7 @@ a {
 @media screen and (max-width: 600px){
   main{
     background-color: aqua;
-    margin: left 15px;;
+    margin-left:  35px;
+    width: auto;
   }
 }
