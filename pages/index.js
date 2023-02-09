@@ -63,7 +63,7 @@ export default function Home() {
                         </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             Salut, tu peux m'appeler 
-              <span className="text-teal-600"> Ramane</span> en abrégé ! Je suis un développeur web avec une expérience approfondie du développement Web et mobile. J'étais en autodidacte depuis 4 ans et j'ai rejoint un codecamp qui me fait créer des sites web qui aident les organisations à relever des défis commerciaux et à répondre à leurs besoins.
+              <span className="text-teal-600"> Ramane</span> en abrégé ! Je suis un développeur web avec une expérience approfondie du développement Web. J'étais en autodidacte depuis 4 ans et j'ai rejoint un codecamp qui me fait créer des sites web qui aident les organisations à relever des défis commerciaux et à répondre à leurs besoins.
              
               , et le language principal de ma pile technologique est{" "}
               <span className="text-teal-600">JavaScript</span> . J'apprends tout au long de ma vie (je m'inscris actuellement au programme {" "}
@@ -108,9 +108,7 @@ export default function Home() {
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             J'offre une large gamme de services, y compris 
-              <span className="text-teal-500">le développement Web </span>(
-              <span className="text-teal-500">front-end </span> et
-              <span className="text-teal-500"> back-end</span>),{" "}
+              <span className="text-teal-500">le développement Web ,</span>{" "}
               <span className="text-teal-500">la programmation </span>,
               <span className="text-teal-500"> API Integration</span>.
             </p>
@@ -124,7 +122,7 @@ export default function Home() {
               <p className="py-2">
               Créer des designs élégants adaptés à vos besoins en suivant la théorie du design de base.
               </p>
-              <h4 className="py-4 text-teal-600">Tools I Use</h4>
+              <h4 className="py-4 text-teal-600">Outils que j'utilise</h4>
               <p className="text-gray-800 py-1">Html5</p>
               <p className="text-gray-800 py-1">Css3</p>
               <p className="text-gray-800 py-1">JavaScript</p>
@@ -136,7 +134,7 @@ export default function Home() {
               <p className="py-2">
               Vous vouliez un cadre pour votre projet ? Je peux utiliser de nombreux frameworks CSS et de développement.
               </p>
-              <h4 className="py-4 text-teal-600">Tools I Use</h4>
+              <h4 className="py-4 text-teal-600">Outils que j'utilise</h4>
               <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">Express.js</p>
               <p className="text-gray-800 py-1">React.js</p>
@@ -198,7 +196,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap justify-center ">
             <div className="growd basis-1/4 flex-4 ">
               <a
-                href="https://yacoubou-seidou.github.io/Project-MI/"
+                href="https://ramanesdr.github.io/projet-Mi/"
                 target="_blank"
               >
                 <Image

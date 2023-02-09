@@ -35,3 +35,8 @@ a {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+@media screen and (max-width: 600px){
+  main{
+    width: 100%;
+  }
+}
