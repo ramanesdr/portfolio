@@ -38,6 +38,6 @@ a {
 @media screen and (max-width: 600px){
   main{
     background-color: aqua;
-    margin: auto;
+    margin: left 15px;;
   }
 }
