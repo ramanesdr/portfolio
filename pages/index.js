@@ -47,9 +47,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
-                >
-                  Resume
+                  href="/CV Abdourahamane Saley Haougui.pdf" download="CV Abdourahamane Saley Haougui.pdf"                >
+                 Telecharger le CV
                 </a>
               </li>
             </ul>
@@ -63,7 +62,7 @@ export default function Home() {
                         </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             Salut, tu peux m'appeler 
-              <span className="text-teal-600"> Ramane</span> en abrégé ! Je suis un développeur web avec une expérience approfondie du développement Web. J'étais en autodidacte depuis 4 ans et j'ai rejoint un codecamp qui me fait créer des sites web qui aident les organisations à relever des défis commerciaux et à répondre à leurs besoins.
+              <span className="text-teal-600"> Ramane</span> en abrégé ! Je suis un développeur web avec une expérience approfondie du développement Web. J'étais en autodidacte depuis 2 ans et j'ai rejoint un codecamp qui me fait créer des sites web qui aident les organisations à relever des défis commerciaux et à répondre à leurs besoins.
              
               , et le language principal de ma pile technologique est{" "}
               <span className="text-teal-600">JavaScript</span> . J'apprends tout au long de ma vie (je m'inscris actuellement au programme {" "}
@@ -136,8 +135,8 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise</h4>
               <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">Express.js</p>
-              <p className="text-gray-800 py-1">React.js</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
+              <p className="text-gray-800 py-1">Materialize.css</p>
             </div>
           </div>
         </section>
