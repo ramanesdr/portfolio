@@ -1,9 +1,8 @@
 import Head from "next/head";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillWhatsapp } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import deved from "../public/m.JPG";
-import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
@@ -81,6 +80,13 @@ export default function Home() {
               . Aime la musique, les jeux et le sport..
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <a
+                className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
+                href="https://wa.me/22792357311"
+                target="_blank"
+              >
+                <AiFillWhatsapp />
+              </a>
               <a
                 className="text-gray-400 hover:text-gray-900 dark:hover:text-white"
                 href="https://www.linkedin.com/in/abdourahamane-saley-haougui-6a8004263/"
