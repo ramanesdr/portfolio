@@ -32,9 +32,8 @@ export default function Home() {
         <meta name="title" content="Ramane's Portfolio" />
         <meta name="description" content="Bienvenue sur mon Portfolio ce site contien un bref resumé de mon parcour, mes experiences, mes projet, mon github et quelques un de mes reseau sociaux" />
         <meta name="keywords" content="developpeur web, front-end, react, javascript" />
-        
+        <meta property="og:image" content={deved} />
 
-        
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white   dark: dark:bg-gray-900  md:px-20 lg:px-30  ">
@@ -147,7 +146,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-600">Outils que j'utilise</h4>
               <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">Bootstrap</p>
-              <p className="text-gray-800 py-1">Materialize.css</p>
+              <p className="text-gray-800 py-1">React.js</p>
             </div>
           </div>
         </section>
