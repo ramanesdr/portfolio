@@ -1,5 +1,7 @@
 import Head from "next/head";
-import { AiFillGithub, AiFillLinkedin, AiFillWhatsapp } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiFillWhatsapp } from 'react-icons/ai';
+
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import deved from "../public/m.JPG";
@@ -12,6 +14,8 @@ import web3 from "../public/227.png";
 import web4 from "../public/myadmin.png";
 import web5 from "../public/karanta.png";
 import web6 from "../public/nbf.png";
+
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
