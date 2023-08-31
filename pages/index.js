@@ -13,6 +13,7 @@ import web3 from "../public/227.png";
 import web4 from "../public/myadmin.png";
 import web5 from "../public/karanta.png";
 import web6 from "../public/nbf.png";
+import Badge from '../pages/badge'
 
 
 
@@ -35,14 +36,16 @@ export default function Home() {
         <meta name="title" content="Ramane's Portfolio" />
         <meta name="description" content="Bienvenue sur mon Portfolio ce site contien un bref resumé de mon parcour, mes experiences, mes projet, mon github et quelques un de mes reseau sociaux" />
         <meta name="keywords" content="developpeur web, front-end, react, javascript" />
+        <meta name="image" content={deved} />
+
         <meta property="og:image" content={deved} />
 
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/fav.png" />
       </Head>
       <main className=" bg-white   dark: dark:bg-gray-900  md:px-20 lg:px-30  ">
         <section className="max-w-4xl min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">developedbyramane</h1>
+            <h1 className="font-burtons text-xl">DevelopedByRamane</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -60,15 +63,19 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
+            
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Abdourahamane Saley Haougui
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
             Développeur Web
-                        </h3>
+                        </h3>          
+                        <div className="text-center">
+              <Badge />
+            </div>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             Salut, tu peux m'appeler
-              <span className="text-teal-600"> Ramane</span> en abrégé ! Je suis un développeur web avec une expérience approfondie du développement Web. J'étais en autodidacte depuis 2 ans et j'ai rejoint un codecamp qui me fait créer des sites web qui aident les organisations à relever des défis commerciaux et à répondre à leurs besoins.
+              <span className="text-teal-600"> Ramane</span> en abrégé ! Je suis un développeur web avec une expérience approfondie du développement Web. J'étais en autodidacte depuis 3 ans et j'ai rejoint un codecamp qui me fait créer des sites web qui aident les organisations à relever des défis commerciaux et à répondre à leurs besoins.
 
               , et le language principal de ma pile technologique est{" "}
               <span className="text-teal-600">JavaScript</span> . J'apprends tout au long de ma vie je m'inscris actuellement au programme {" "}
@@ -138,6 +145,9 @@ export default function Home() {
               <p className="text-gray-800 py-1">Html5</p>
               <p className="text-gray-800 py-1">Css3</p>
               <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">UX/UI</p>
+              <p className="text-gray-800 py-1">Version Control</p>
+
             </div>
             
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
@@ -147,9 +157,13 @@ export default function Home() {
               Vous vouliez un cadre pour votre projet ? Je peux utiliser de nombreux frameworks CSS et de développement.
               </p>
               <h4 className="py-4 text-teal-600">Outils que j'utilise</h4>
-              <p className="text-gray-800 py-1">Node.js</p>
-              <p className="text-gray-800 py-1">Bootstrap</p>
               <p className="text-gray-800 py-1">React.js</p>
+              <p className="text-gray-800 py-1">Bootstrap</p>
+              <p className="text-gray-800 py-1">materialize.css</p>
+              <p className="text-gray-800 py-1">Sass/Scss</p>
+              <p className="text-gray-800 py-1">Wordpress</p>
+
+
             </div>
           </div>
         </section>
@@ -365,6 +379,7 @@ export default function Home() {
           </div>
         </footer>
       </main>
+
     </div>
   );
 }
